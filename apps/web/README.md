@@ -1,12 +1,18 @@
-# Web app
+# StudioRent Web
 
-Будущий frontend Telegram Mini App.
+Next.js Telegram Mini App MVP.
 
-Предварительный стек: Next.js, React, TypeScript.
+## Scripts
 
-Основные зоны:
-- Telegram Mini App shell.
-- Главная с поиском, картой и студиями.
-- Карточка студии.
-- Бронирование и mock-оплата.
-- Кабинет клиента и студии.
+- `npm run dev` - local development.
+- `npm run build` - production build.
+- `npm run start` - production server.
+- `npm run lint` - lint check.
+
+## MVP Scope
+
+- Catalog-first experience for Moscow recording studios.
+- Studio details with photos, equipment, prices, address and map block.
+- Slot selection, mock payment and instant booking confirmation.
+- Telegram WebApp bootstrap and dark mobile UI.
+
